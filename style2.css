@@ -216,7 +216,7 @@ a {
 
     .filtros-container {
         width: 20vw;
-        height: 25vw;
+        height: 30vw;
         border: 1px solid #07cd71;
         border-radius: 5px;
         padding: 2vw;
@@ -417,7 +417,8 @@ a {
         flex-direction: row;
     }
 
-    .pag-altern button, input {
+    .pag-altern button,
+    .pag-altern input {
         width: 20px;
         border: none;
         background-color: #fff;
@@ -427,14 +428,17 @@ a {
         justify-content: center;
         text-align: center;
     }
-    .pag-altern .anterior, .proximo {
-        width: 70px ;
-    }
-        .pag-altern .proximo {
-        width: 70px ;
+
+    .pag-altern .anterior,
+    .proximo {
+        width: 70px;
     }
 
-    .pag-altern button:focus{
+    .pag-altern .proximo {
+        width: 70px;
+    }
+
+    .pag-altern button:focus {
         background-color: #07cd71;
 
     }
